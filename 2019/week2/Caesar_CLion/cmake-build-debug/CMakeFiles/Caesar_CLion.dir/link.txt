@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Caesar_CLion.dir/main.c.o  -o Caesar_CLion 

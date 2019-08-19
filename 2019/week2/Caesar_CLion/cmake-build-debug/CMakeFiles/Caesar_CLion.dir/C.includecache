@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/main.c
+stdio.h
+-
+cs50.h
+-
+string.h
+-
+

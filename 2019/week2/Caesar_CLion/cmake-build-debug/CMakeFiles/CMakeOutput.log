@@ -1,0 +1,80 @@
+The system is: Darwin - 18.6.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/clang 
+Build flags: -fsanitize=integer;-fsanitize=undefined;-ggdb3;-O0;-std=c11;-Wall;-Werror;-Wextra;-Wno-sign-compare;-Wshadow
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_93e92/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_93e92.dir/build.make CMakeFiles/cmTC_93e92.dir/build
+Building C object CMakeFiles/cmTC_93e92.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/clang   -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_93e92.dir/testCCompiler.c.o   -c /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_93e92
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93e92.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_93e92.dir/testCCompiler.c.o  -o cmTC_93e92 
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_00bb3/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_00bb3.dir/build.make CMakeFiles/cmTC_00bb3.dir/build
+Building C object CMakeFiles/cmTC_00bb3.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/clang   -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_00bb3.dir/feature_tests.c.o   -c /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_00bb3
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00bb3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_00bb3.dir/feature_tests.c.o  -o cmTC_00bb3 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b0128/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b0128.dir/build.make CMakeFiles/cmTC_b0128.dir/build
+Building C object CMakeFiles/cmTC_b0128.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/clang   -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_b0128.dir/feature_tests.c.o   -c /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b0128
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0128.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b0128.dir/feature_tests.c.o  -o cmTC_b0128 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91c46/fast 
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_91c46.dir/build.make CMakeFiles/cmTC_91c46.dir/build
+Building C object CMakeFiles/cmTC_91c46.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/clang   -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_91c46.dir/feature_tests.c.o   -c /Users/teowey/Documents/cs50/2019/week2/Caesar_CLion/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_91c46
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91c46.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91c46.dir/feature_tests.c.o  -o cmTC_91c46 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Vigenere_CLion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vigenere_CLion">
+				<Option output="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Vigenere_CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vigenere_CLion"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Vigenere_CLion/fast">
+				<Option output="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Vigenere_CLion" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Vigenere_CLion/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/main.c">
+			<Option target="Vigenere_CLion"/>
+		</Unit>
+		<Unit filename="/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
