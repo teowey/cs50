@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/main.c" "/Users/teowey/Documents/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/CMakeFiles/Vigenere_CLion.dir/main.c.o"
+  "/Users/teowey/Documents/cs50/cs50/2019/week2/Vigenere_CLion/main.c" "/Users/teowey/Documents/cs50/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/CMakeFiles/Vigenere_CLion.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
