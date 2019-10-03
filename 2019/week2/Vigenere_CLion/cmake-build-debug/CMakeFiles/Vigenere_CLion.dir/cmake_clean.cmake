@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Vigenere_CLion.dir/main.c.o"
-  "Vigenere_CLion.pdb"
   "Vigenere_CLion"
+  "Vigenere_CLion.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

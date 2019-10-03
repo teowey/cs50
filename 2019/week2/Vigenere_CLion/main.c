@@ -24,7 +24,9 @@ int main(int argc, string argv[]) {
         return 1;
     }
 
-
+    /*
+     *  Store the string input to check next with isDigit()
+     */
     string keyword = argv[1];
     int length = strlen(keyword);
 
@@ -41,38 +43,39 @@ int main(int argc, string argv[]) {
     }
 
 
-//    string plaintext = get_string("plaintext: ");
-//    int plain_len = strlen(plaintext);
-//    char ciphertext[plain_len];
-//    int shift_char; /* To calculate the ciphertext below and rotate */
+    string plaintext = get_string("plaintext: ");
+    int plain_len = strlen(plaintext);
+    char ciphertext[plain_len];
+    int shift_char; /* To calculate the ciphertext below and rotate */
 
 
+    int key = shift(argv[1][0]);
 
-//    printf("ciphertext: ");
-//    for (int i = 0; i < plain_len; i++)
-//    {
-//        /*
-//         * This is to check if it's in the capital or small letter range.
-//         * It is needed to change the calculation for the ciphertext rotation.
-//         *
-//         */
-//        if ((plaintext[i] >= 'a' && plaintext[i] <= 'z'))
-//        {
-//            shift_char = 'a';
-//            ciphertext[i] = ((plaintext[i] - shift_char + k) % 26) + shift_char;
-//            printf("%c", ciphertext[i]);
-//        }
-//        else if ((plaintext[i] >= 'A' && plaintext[i] <= 'Z'))
-//        {
-//            shift_char = 'A';
-//            ciphertext[i] = ((plaintext[i] - shift_char + k) % 26) + shift_char;
-//            printf("%c", ciphertext[i]);
-//        }
-//        else
-//        {
-//            printf("%c", plaintext[i]); /* Easy case: If it is not a letter (1 or 2 or , or ! and so on) */
-//        }
-//    }
+    printf("ciphertext: ");
+    for (int i = 0; i < plain_len; i++)
+    {
+        /*
+         * This is to check if it's in the capital or small letter range.
+         * It is needed to change the calculation for the ciphertext rotation.
+         *
+         */
+        if ((plaintext[i] >= 'a' && plaintext[i] <= 'z'))
+        {
+            shift_char = 'a';
+            ciphertext[i] = ((plaintext[i] - shift_char + key) % 26) + shift_char;
+            printf("%c", ciphertext[i]);
+        }
+        else if ((plaintext[i] >= 'A' && plaintext[i] <= 'Z'))
+        {
+            shift_char = 'A';
+            ciphertext[i] = ((plaintext[i] - shift_char + key) % 26) + shift_char;
+            printf("%c", ciphertext[i]);
+        }
+        else
+        {
+            printf("%c", plaintext[i]); /* Easy case: If it is not a letter (1 or 2 or , or ! and so on) */
+        }
+    }
 
     printf("\n");
     return 0;

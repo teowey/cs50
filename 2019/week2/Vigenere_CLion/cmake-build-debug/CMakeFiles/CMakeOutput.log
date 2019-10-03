@@ -78,3 +78,29 @@ Linking C executable cmTC_b5e1b
     Feature record: C_FEATURE:0c_restrict
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
+The system is: Darwin - 18.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/clang 
+Build flags: -fsanitize=integer;-fsanitize=undefined;-ggdb3;-O0;-std=c11;-Wall;-Werror;-Wextra;-Wno-sign-compare;-Wshadow
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/teowey/Documents/cs50/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/teowey/Documents/cs50/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76cda/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_76cda.dir/build.make CMakeFiles/cmTC_76cda.dir/build
+Building C object CMakeFiles/cmTC_76cda.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/clang   -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_76cda.dir/testCCompiler.c.o   -c /Users/teowey/Documents/cs50/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_76cda
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76cda.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/clang -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76cda.dir/testCCompiler.c.o  -o cmTC_76cda 
+
+
+

@@ -29,7 +29,7 @@ int main(int argc, string argv[]) {
     printf("ciphertext: ");
     for (int i = 0; i < plain_len; i++)
     {
-        // This is to check if it's in the capital ir small letter range.
+        // This is to check if it's in the capital or small letter range.
         // It is needed to change the calculation for the ciphertext rotation.
         if ((plaintext[i] >= 'a' && plaintext[i] <= 'z'))
         {

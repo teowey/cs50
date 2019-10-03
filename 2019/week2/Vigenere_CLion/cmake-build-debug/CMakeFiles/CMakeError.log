@@ -15,3 +15,20 @@ make: *** [cmTC_bc351/fast] Error 2
 
 
 
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/teowey/Documents/cs50/cs50/2019/week2/Vigenere_CLion/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ca50f/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ca50f.dir/build.make CMakeFiles/cmTC_ca50f.dir/build
+Building C object CMakeFiles/cmTC_ca50f.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/clang   -fsanitize=integer -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wshadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -v -Wl,-v -o CMakeFiles/cmTC_ca50f.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/CMakeCCompilerABI.c
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+Target: x86_64-apple-darwin18.7.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+clang: error: -Wl,-v: 'linker' input unused [-Werror,-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_ca50f.dir/CMakeCCompilerABI.c.o] Error 1
+make: *** [cmTC_ca50f/fast] Error 2
+
+
+
+
